@@ -19,5 +19,8 @@
   ],
   "bugs": {
     "web": "https://github.com/AitorAlejandro/apricot/issues"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.4"
   }
 }
