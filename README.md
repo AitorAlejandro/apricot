@@ -26,13 +26,10 @@ npm test
 
 👤 **AitorAlejandro**
 
-* Website: http://aitoralejandro.github.io
-* Github: [@AitorAlejandro](https://github.com/AitorAlejandro)
-* LinkedIn: [@aitoralejandro](https://linkedin.com/in/aitoralejandro)
+- Website: http://aitoralejandro.github.io
+- Github: [@AitorAlejandro](https://github.com/AitorAlejandro)
+- LinkedIn: [@aitoralejandro](https://linkedin.com/in/aitoralejandro)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
