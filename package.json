@@ -1,4 +1,14 @@
 {
   "name": "@aitoralejandro/apricot",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "Statistic library",
+  "license": "MIT",
+  "repository": "AitorAlejandro/apricot",
+  "main": "index.js",
+  "keywords": [
+    "apricot",
+    "npm",
+    "package",
+    "statistic"
+  ]
 }
