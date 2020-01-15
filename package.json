@@ -10,5 +10,14 @@
     "npm",
     "package",
     "statistic"
-  ]
+  ],
+  "maintainers": [
+    {
+      "name": "AitorAlejandro",
+      "web": "https://github.com/AitorAlejandro"
+    }
+  ],
+  "bugs": {
+    "web": "https://github.com/AitorAlejandro/apricot/issues"
+  }
 }
