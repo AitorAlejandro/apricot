@@ -1,13 +1,15 @@
 {
   "name": "@aitoralejandro/apricot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Statistic library",
   "license": "MIT",
   "repository": "AitorAlejandro/apricot",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest --coverage",
+    "test:report": "open coverage/lcov-report/index.html"
   },
   "keywords": [
     "apricot",
@@ -25,6 +27,13 @@
     "web": "https://github.com/AitorAlejandro/apricot/issues"
   },
   "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
     "typescript": "^3.7.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
   }
 }
