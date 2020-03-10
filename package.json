@@ -1,6 +1,6 @@
 {
   "name": "@aitoralejandro/apricot",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Statistic library",
   "license": "MIT",
   "repository": "AitorAlejandro/apricot",
@@ -8,7 +8,10 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest --coverage",
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "format": "prettier-standard --format",
+    "test": "standard --fix && jest --coverage",
     "test:report": "open coverage/lcov-report/index.html"
   },
   "keywords": [
@@ -29,11 +32,19 @@
   "devDependencies": {
     "@types/jest": "^25.1.4",
     "jest": "^25.1.0",
+    "standard": "^14.3.1",
+    "standard-prettier": "^1.0.1",
     "ts-jest": "^25.2.1",
     "typescript": "^3.7.4"
   },
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node"
+  },
+  "standard": {
+    "ignore": [
+      "node_modules/",
+      "dist/"
+    ]
   }
 }
